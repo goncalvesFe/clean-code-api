@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import { SignUpController } from './signup'
 import { MissingParamError, InvalidParamError, ServerError } from '../errors'
-import { Emailvalidator } from '../protocols/email-validator'
+import { Emailvalidator } from '../protocols'
 
 interface SutTypes {
   sut: SignUpController
